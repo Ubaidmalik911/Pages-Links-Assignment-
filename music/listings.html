@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: "poppins", sans-serif;
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .navbar {
+            width: 100%;
+            background: linear-gradient(90deg, #43cea2, #185a9d);
+
+
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 30px;
+            justify-content: center;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        h1 {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .main-image img {
+            width: 100%;
+            object-fit: cover;
+        }
+        h1.black {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.music-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.card p {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+audio {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+}
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="../index.html">Main page</a></li>
+            <li><a href="index.html">Music index page</a></li>
+            <li><a href="reviews.html">Music reviews page</a></li>
+        </ul>
+    </div>
+    <div class="heading">
+        <h1>Listing-Page</h1>
+    </div>
+    <div class="main-image">
+        <img src="hq720.jpg" alt="">
+    </div>
+    <h1 class="black">Music List</h1>
+    <div class="music-list">
+        <div class="card">
+            <h2>Danzan Khuduro</h2>
+            <p>Luís Filipe Fraga Oliveira</p><audio controls loop  >
+                <source src="dj_master_95_don-omar-danza-kuduro-remix-dj-master.mp3" type="audio/mpeg">
+               
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="card">
+            <h2>Illuminati</h2>
+            <p>Michael Jackson</p> <audio controls loop  >
+                <source src="Illuminati(KoshalWorld.Com).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <div class="card">
+            <h2>GigaChad Theme Phonk</h2>
+            <p>Jhon Elon</p>
+            <audio controls loop autoplay>
+                <source src="G3ox_em_-_GigaChad_Theme_Phonk_House_Version__CeeNaija.com_.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="card">
+            <h2>Bloody Mary</h2>
+            <p>Roman Beans</p>
+            <audio controls loop  >
+                <source src="BLOODY MARY INSTRUMENTAL [SLOWED + REVERB + BASS BOOST + AESTHETICNESS].mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
